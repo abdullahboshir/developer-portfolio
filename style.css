@@ -1,0 +1,51 @@
+ body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+     }
+  
+   section{
+       display: flex;
+       padding: 0 40px;
+   }
+   .width{
+       width: 50%;
+   }
+   .left{
+       padding-left: 50px;
+   }
+   button{
+        background-image: linear-gradient(
+        45deg, lightsalmon, tomato);
+        padding: 10px 40px;
+        border-radius: 5px;
+        border: 0;
+   }
+   button a{
+       text-decoration: none;
+       font-weight: bold;
+       color: white;
+   }
+   section img{
+       width: 80%;
+       margin-left: 50px;
+      
+   }
+     h1{
+        
+         font-size: 50px;
+     }
+    span{
+        color: orange;
+    }
+
+    #section-1{
+        background-image: url(images/top-banner.png);
+        background-repeat: no-repeat;
+    }
+    p{
+        text-align: justify;
+        color: #6f8494;
+        width: 500px;
+
+    }
