@@ -4,14 +4,14 @@
     padding: 0;
      }
   
-   section{
+   #section-1 {
        display: flex;
        padding: 0 40px;
    }
    .width{
        width: 50%;
    }
-   .left{
+   #section-1 .left{
        padding-left: 50px;
    }
    button{
@@ -27,7 +27,7 @@
        color: white;
    }
    section img{
-       width: 80%;
+       width: 90%;
        margin-left: 50px;
       
    }
@@ -49,3 +49,29 @@
         width: 500px;
 
     }
+
+    #section-2{
+        background-image: url(images/dream-bg.png);
+        margin-top: 150px;
+        background-repeat: no-repeat;
+       background-position: right;
+        display: flex;
+     
+    }
+
+  
+
+    #section-2 img{
+        background-repeat: no-repeat;
+    }
+
+    #section-2 .right{
+         padding-right: 50px;
+    }
+
+    #section-2 .left{
+            padding-right: 60px;
+    }
+
+
+   
